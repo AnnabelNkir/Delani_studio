@@ -21,3 +21,6 @@ section{
 #portfoliosection img{
     width: 100%;
 }
+#whatwedo .description{
+    display: none;
+}
