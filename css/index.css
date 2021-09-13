@@ -1,4 +1,15 @@
-section{
+
+@media screen and (min-width: 480px) {
+    body {
+      width: 120%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    body {
+      width: 100%;
+    }
+  }
+  section{
     height: 100vh;
 }
 
@@ -35,21 +46,21 @@ section{
     display: none;
     cursor: pointer;
 }
-#portfoliosection{
+#whatwedo{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 50px;
     height: 100vh;
-  
 }
-
-
-
-  .album{
-    width: 70%;
+  .portfolio{
+    width: 80%;
     margin: auto;
   }
 
-.album >h3{
+.portfolio >h3{
   font-weight: 700;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 
@@ -78,9 +89,12 @@ section{
 #form{
     background-image: url("../Delani_Assets/IP3-master/assets/backgrounds/c_image.jpg");
     background-size: cover;
+    margin-top: 20px;
+    
   }
   .input{
     display: inline;
+  
    
   }
   
