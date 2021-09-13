@@ -15,43 +15,43 @@ $(document).ready(function(){
 });
 
 
-$('.work4').mouseover(function() {
+$('.work4').mouseover(function () {
   $('.work4-overlay').show();
 }).mouseout(function() {
   $('.work4-overlay').hide();
 });
-$(".work3").mouseenter(function() {
+$(".work3").mouseover(function () {
   $(".work3-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work3-overlay").hide();
 });
-$(".work2").mouseenter(function() {
+$(".work2").mouseover(function () {
   $(".work2-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work2-overlay").hide();
 });
-$(".work1").mouseenter(function() {
+$(".work1").mouseover(function () {
   $(".work1-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work1-overlay").hide();
 });
-$(".work5").mouseenter(function() {
+$(".work5").mouseover(function () {
   $(".work5-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work5-overlay").hide();
 });
-$(".work6").mouseenter(function() {
+$(".work6").mouseover(function () {
   $(".work6-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work6-overlay").hide();
 });
-$(".work7").mouseenter(function() {
+$(".work7").mouseover(function() {
   $(".work7-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work7-overlay").hide();
 });
-$(".work8").mouseenter(function() {
+$(".work8").mouseover(function() {
   $(".work8-overlay").show();
-}).mouseleave(function() {
+}).mouseout(function() {
   $(".work8-overlay").hide();
 });

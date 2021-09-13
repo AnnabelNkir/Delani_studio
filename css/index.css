@@ -23,7 +23,6 @@ section{
 }
 #portfoliosection img{
     width: 100%;
-    position: relative;
 }
 .design p{
     display: none;
@@ -38,25 +37,28 @@ section{
     display: none;
     cursor: pointer;
 }
-.overlay{
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 90%;
-  }
 
-.wonger{
+
+.hover-details {
     width: 80%;
     height: 80%;
-    border: 2px solid white;
+    border: 2px solid black;
     margin-left: 10%;
     margin-top: 10%;
+    color: black;
   }
-.wonger h1{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 30%;
-    font-style:oblique;
+.work1-overlay,
+.work2-overlay,
+.work3-overlay,
+.work4-overlay,
+.work5-overlay,
+.work6-overlay,
+.work7-overlay,
+.work8-overlay {
+    display: none;
+    position: absolute;
+    width: 90%;
+    top:0;
+    bottom: 0;
+    background-color: rgb(119, 98, 98, 0.5);
 }
