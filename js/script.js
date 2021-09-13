@@ -14,46 +14,85 @@ $(document).ready(function(){
       $(".description3").toggle();
   });
 
-  $('.work4').mouseover(function () {
-    $('.work4overlay').show();
-}).mouseout(function () {
-    $('.work4overlay').hide();
-});
-$('.work3').mouseover(function () {
-    $('.work3overlay').show();
-}).mouseout(function () {
-    $('.work3overlay').hide();
-});
-$('.work2').mouseover(function () {
-    $('.work2overlay').show();
-}).mouseout(function () {
-    $('.work2overlay').hide();
-});
-$('.work1').mouseover(function () {
-    $('.work1overlay').show();
-}).mouseout(function () {
-    $('.work1overlay').hide();
-});
-$('.work5').mouseover(function () {
-    $('.work5overlay').show();
-}).mouseout(function () {
-    $('.work5overlay').hide();
-});
-$('.work6').mouseover(function () {
-    $('.work6overlay').show();
-}).mouseout(function () {
-    $('.work6overlay').hide();
-});
-$('.work7').mouseover(function () {
-    $('.work7overlay').show();
-}).mouseout(function () {
-    $('.work7overlay').hide();
-});
-$('.work8').mouseover(function () {
-    $('.work8overlay').show();
-}).mouseout(function () {
-    $('.work8overlay').hide();
-});
+  // Hover effect on portfolio
+ 
+$('.work4').hover(function () {
+  $(this).css("opacity", "0.6"); 
+  $('.hoverwork4').removeClass('hover'); 
+      }, function () {
+          $(this).css("opacity", "1"); 
+          $('.hoverwork4').addClass('hover'); 
+  });
+     
+
+
+$('.work3').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork3').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork3').addClass('hover');
+  });
+
+
+
+$('.work2').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork2').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork2').addClass('hover');
+  });
+
+
+
+$('.work1').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork1').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork1').addClass('hover');
+  });
+
+$('.work5').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork5').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork5').addClass('hover');
+  });
+
+
+
+$('.work6').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork6').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork6').addClass('hover');
+  });
+
+
+
+$('.work7').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork7').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork7').addClass('hover');
+  });
+
+
+
+$('.work8').hover(function () {
+  $(this).css("opacity", "0.6");
+  $('.hoverwork8').removeClass('hover');
+      }, function () {
+          $(this).css("opacity", "1");
+          $('.hoverwork8').addClass('hover');
+  });
+
+// Form validation and message
 
 $("form#form1").on('submit',function(event){
   event.preventDefault();

@@ -35,34 +35,49 @@ section{
     display: none;
     cursor: pointer;
 }
+#portfoliosection{
+    height: 100vh;
+  
+}
 
 
-.hoverdetails {
-    width: 80%;
-    height: 80%;
-    border: 2px solid white;
-    margin-left: 10%;
-    margin-top: 10%;
-    color: white;
+
+  .album{
+    width: 70%;
+    margin: auto;
   }
-.work1overlay,
-.work2overlay,
-.work3overlay,
-.work4overlay,
-.work5overlay,
-.work6overlay,
-.work7overlay,
-.work8overlay {
-   display: none;
-    position: absolute;
-    width: 90%;
-    top:0;
-    bottom: 0;
-    background-color:black;
-    opacity: 0.8;
-}   
+
+.album >h3{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+
+
+.textover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 2px solid white;
+  width: 150px;
+  height: 120px;
+  opacity: 0.7;
+  background: black;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.hover {
+  display: none;
+}
 #form{
     background-image: url("../Delani_Assets/IP3-master/assets/backgrounds/c_image.jpg");
+    background-size: cover;
   }
   .input{
     display: inline;
