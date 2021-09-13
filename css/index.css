@@ -23,6 +23,7 @@ section{
 }
 #portfoliosection img{
     width: 100%;
+    position: relative;
 }
 .design p{
     display: none;
@@ -36,4 +37,26 @@ section{
 .productmanagement p{
     display: none;
     cursor: pointer;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
+  }
+
+.wonger{
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+.wonger h1{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30%;
+    font-style:oblique;
 }
