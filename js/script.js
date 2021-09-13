@@ -65,7 +65,7 @@ $("form#form1").on('submit',function(event){
       alert ("Hello " + name + ", Thank you for reaching out, we'll get back to you shortly...");
   }
   else if($("input#name").val() && $("input#email").val()){
-      alert("Thank you for reaching us. If you wish to leave a message please type in on the message section..");
+      alert(" Hey " + name + ".Thank you for reaching us. Getting back to you shortly...");
   }
  else{
    alert("Please provide correct name or email")
