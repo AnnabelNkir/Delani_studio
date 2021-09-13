@@ -21,9 +21,7 @@ section{
     color: white;
     line-height: 50px;
 }
-#portfoliosection img{
-    width: 100%;
-}
+
 .design p{
     display: none;
     cursor: pointer;
@@ -39,26 +37,27 @@ section{
 }
 
 
-.hover-details {
+.hoverdetails {
     width: 80%;
     height: 80%;
-    border: 2px solid black;
+    border: 2px solid white;
     margin-left: 10%;
     margin-top: 10%;
-    color: black;
+    color: white;
   }
-.work1-overlay,
-.work2-overlay,
-.work3-overlay,
-.work4-overlay,
-.work5-overlay,
-.work6-overlay,
-.work7-overlay,
-.work8-overlay {
-    display: none;
+.work1overlay,
+.work2overlay,
+.work3overlay,
+.work4overlay,
+.work5overlay,
+.work6overlay,
+.work7overlay,
+.work8overlay {
+   display: none;
     position: absolute;
     width: 90%;
     top:0;
     bottom: 0;
-    background-color: rgb(119, 98, 98, 0.5);
-}
+    background-color:black;
+    opacity: 0.8;
+}   
