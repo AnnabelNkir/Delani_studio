@@ -24,8 +24,16 @@ section{
 #portfoliosection img{
     width: 100%;
 }
-.design p,.development p,.productmanagement p{
+.design p{
     display: none;
     cursor: pointer;
 }
     
+.development p{
+    display: none;
+    cursor: pointer;
+}
+.productmanagement p{
+    display: none;
+    cursor: pointer;
+}

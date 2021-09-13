@@ -8,8 +8,8 @@ $(document).ready(function(){
       $(".developmentimage").toggle();
       $(".description2").toggle();
   });
-  $(".product").click(function(){
-      $(".producmanagementimage").toggle();
+  $(".productmanagement").click(function(){
+      $(".productmanagementimage").toggle();
       $(".description3").toggle();
   });
 });
