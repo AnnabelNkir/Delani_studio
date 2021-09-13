@@ -61,3 +61,42 @@ section{
     background-color:black;
     opacity: 0.8;
 }   
+#form{
+    background-image: url("../Delani_Assets/IP3-master/assets/backgrounds/c_image.jpg");
+  }
+  .input{
+    display: inline;
+   
+  }
+  
+  
+  #form input{
+    width:35%;
+    background-color: transparent;
+  
+  }
+  #name{
+    margin-left: 5%;
+    color :white;
+    
+  }
+  #email{
+    margin-left:5%;
+    color: white;
+    
+  }
+  #form textarea{
+    background-color: transparent;
+    color: white;
+   
+  }
+  #email::placeholder{
+    color: white;
+  }
+  
+  #name::placeholder{
+    color: white;
+  }
+  textarea::placeholder{
+    color: white;
+  }
