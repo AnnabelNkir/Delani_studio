@@ -46,13 +46,7 @@
     display: none;
     cursor: pointer;
 }
-#whatwedo{
-    margin-bottom: 15px;
-    margin-top: 20px;
-    padding-top: 15px;
-    padding-bottom: 50px;
-    height: 100vh;
-}
+
   .portfolio{
     width: 80%;
     margin: auto;
@@ -89,7 +83,7 @@
 #form{
     background-image: url("../Delani_Assets/IP3-master/assets/backgrounds/c_image.jpg");
     background-size: cover;
-    margin-top: 20px;
+   
     
   }
   .input{
@@ -105,12 +99,12 @@
   
   }
   #name{
-    margin-left: 5%;
+    margin-left: 10%;
     color :white;
     
   }
   #email{
-    margin-left:5%;
+    margin-left:10%;
     color: white;
     
   }
