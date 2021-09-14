@@ -9,7 +9,7 @@ This is a landing page for Delani studio that showcases an 'About Us" section, s
 
 For one to be able to access the Delani studio website, the user should install the latest version of browser of choice and load the live link provided and navigate through the application. 
 
-<a href="">Live link to the Delani studio landing page</a>
+<a href="https://annabelnkir.github.io/Delani_studio/">Live link to the Delani studio landing page</a>
 
 
 ## Setup/Installation Requirements
@@ -57,7 +57,7 @@ I used HTML for structure,Bootstrap and CSS for styling and j-query and Javascri
 ## Support and contact details
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at annabel.micheni@student.moringaschool.
 
-### <a href="">Live link to the Delani studio landing page</a>
+### <a href="https://annabelnkir.github.io/Delani_studio/">Delani studio landing page live link</a>
 
 ### MIT License
 ```
